@@ -1,0 +1,23 @@
+{
+  "name": "hello-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello-npm.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel": "^6.3.13",
+    "babel-register": "^6.3.13",
+    "chai": "^3.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "scripts": {
+    "test": "mocha ./tests --compilers js:babel-register"
+  },
+  "author": "",
+  "license": "ISC"
+}
