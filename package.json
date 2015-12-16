@@ -13,7 +13,11 @@
     "chai": "^3.4.1"
   },
   "devDependencies": {
-    "mocha": "^2.3.4"
+    "babel-register": "^6.3.13",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0"
   },
   "scripts": {
     "test": "mocha ./tests --compilers js:babel-register"
