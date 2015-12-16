@@ -2,7 +2,7 @@ export class Foo {
 
   constructor(Meteor) {
     this.Meteor = Meteor;
-    Meteor.methods({
+    this.Meteor.methods({
       "foo": function() {
         return this.bar();
       }

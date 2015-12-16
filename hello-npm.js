@@ -19,7 +19,7 @@ if (Meteor.isClient) {
 
 if (Meteor.isServer) {
   Meteor.startup(function () {
-    console.log(new Foo().bar());
+    console.log(new Foo(Meteor).bar());
     // code to run on server at startup
   });
 }
